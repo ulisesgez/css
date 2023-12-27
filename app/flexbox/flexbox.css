@@ -1,0 +1,14 @@
+.container__snFlex {
+    background-color: #333;
+}
+.container__flex {
+    background-color: #333;
+    display: flex;/*Se alinan en fila horizontal de forma de caja*/
+}
+.container__inlineFlex {
+    background-color: #333;
+    display: inline-flex;/*Se alinan en fila horizontal, ocupan el ancho que necesiten*/
+}
+.item {
+    background-color: #666;
+}
