@@ -9,6 +9,11 @@
     background-color: #333;
     display: inline-flex;/*Se alinan en fila horizontal, ocupan el ancho que necesiten*/
 }
+.container__flexDirection--row {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;/*Por defecto*/
+}
 .item {
     background-color: #666;
 }
