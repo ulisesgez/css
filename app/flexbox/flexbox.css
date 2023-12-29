@@ -19,6 +19,16 @@
     display: flex;
     flex-direction: row-reverse;/*Se alinan en fila horizontal de derecha a izquierda*/
 }
+.container__flexDirection--column {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;/*Se alinan en fila vertical de arriba a abajo*/
+}
+.container__flexDirection--column-reverse {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;/*Se alinan en fila vertical de arriba a abajo*/
+}
 .item {
     background-color: #666;
 }
