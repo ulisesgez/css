@@ -27,8 +27,24 @@
 .container__flexDirection--column-reverse {
     background-color: #333;
     display: flex;
-    flex-direction: column;/*Se alinan en fila vertical de arriba a abajo*/
+    flex-direction: column-reverse;/*Se alinan en fila vertical de abajo a arriba*/
+}
+.container__flexWrap--noWrap {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;/*Por defecto*/
+}
+.container__flexWrap--wrap {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/*Se alinan en fila horizontal de forma de caja*/
 }
 .item {
     background-color: #666;
+}
+.item-wrap {
+    background-color: #666;
+    width: 20%;
 }
